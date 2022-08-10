@@ -1,2 +1,2 @@
-TAGS = ["knowledge", "philosophy", "life", "wisdom", "dark", "dark-humor", "offensive", "humor", "comedy", "manipulation", "insult"]
+TAGS = ["manipulation", "offensive", "wisdom", "knowledge", "life"]
 UNSPLASH_QUERIES = TAGS + ["history", "story", "ancient", "art"]
