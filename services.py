@@ -15,9 +15,8 @@ def _get_random_quote() -> Dict:
     return quote
 
 def _form_tweet(quote: Dict[str, str]) -> str:
-    author = quote["author"].strip(",")
     genre = quote["genre"]
-    tweet = f"{quote['quote']} words: {author} #{genre}"
+    tweet = f"{quote['quote']} #{genre}"
 
     return tweet
 
